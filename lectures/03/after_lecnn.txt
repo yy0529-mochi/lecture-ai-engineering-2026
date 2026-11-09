@@ -1,0 +1,9 @@
+[model] gemini-3.5-flash-lite
+用語集には「lecNNタグ」という用語は見つかりませんでした。
+
+（関係する回：第1回）
+
+--- trace ---
+[tool call]   search_glossary({'query': 'lecNNタグ'})
+[tool return] search_glossary -> 用語集に「lecNNタグ」は見つかりませんでした。…
+[usage] RunUsage(cost=Decimal('0.0003044'), details={'text_prompt_tokens': 648}, input_text_tokens=648, input_tokens=648, output_tokens=44, requests=2, tool_calls=1)
